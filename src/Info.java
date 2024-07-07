@@ -1,4 +1,5 @@
 import javax.swing.ImageIcon;
+import java.awt.Image;
 
 public class Info {
     private String name;
@@ -9,7 +10,7 @@ public class Info {
 
     public Info(String name, ImageIcon flag, String region, int population, boolean isFor) {
         this.name = name;
-        this.flag = flag;
+        this.flag = scaleImageIcon(flag, 50, 30); // Масштабируем изображение до нужного размера
         this.region = region;
         this.population = population;
         this.isFor = isFor;
@@ -29,7 +30,7 @@ public class Info {
     }
 
     public void setFlag(ImageIcon flag) {
-        this.flag = flag;
+        this.flag = scaleImageIcon(flag, 50, 30); // Масштабируем изображение до нужного размера
     }
 
     public String getRegion() {
@@ -54,5 +55,11 @@ public class Info {
 
     public void setFor(boolean isFor) {
         this.isFor = isFor;
+    }
+
+    private ImageIcon scaleImageIcon(ImageIcon icon, int width, int height) {
+        Image img = icon.getImage();
+        Image scaledImg = img.getScaledInstance(width, height, Image.SCALE_SMOOTH);
+        return new ImageIcon(scaledImg);
     }
 }

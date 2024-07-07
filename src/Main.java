@@ -7,7 +7,7 @@ public class Main {
             // Создаем модель таблицы с данными
             InfoTableModel model = new InfoTableModel();
 
-            // Загрузка изображений флагов из ресурсов
+            // Загрузка изображений флагов из файловой системы
             ImageIcon usaFlag = new ImageIcon("src/usa_flag.png");
             ImageIcon ukFlag = new ImageIcon("src/uk_flag.png");
             ImageIcon euFlag = new ImageIcon("src/eu_flag.png");
@@ -18,14 +18,17 @@ public class Main {
 
             // Добавляем страны Евросоюза
             model.addInfo(new Info("Германия", euFlag, "Европа", 83000000, true));
-            model.addInfo(new Info("Франция", euFlag, "Европа", 67000000, false));
+            model.addInfo(new Info("Франция", euFlag, "Европа", 67000000, true));
             model.addInfo(new Info("Италия", euFlag, "Европа", 60000000, true));
-            model.addInfo(new Info("Испания", euFlag, "Европа", 47000000, false));
+            model.addInfo(new Info("Испания", euFlag, "Европа", 47000000, true));
             model.addInfo(new Info("Польша", euFlag, "Европа", 38000000, true));
-            model.addInfo(new Info("Нидерланды", euFlag, "Европа", 17000000, false));
+            model.addInfo(new Info("Нидерланды", euFlag, "Европа", 17000000, true));
 
             // Создаем SortableTable с нашей моделью
             MySortableTable table = new MySortableTable(model);
+
+            // Настройка таблицы для корректного отображения изображений
+            table.setRowHeight(50); // Устанавливаем высоту строки, чтобы уместить изображения
 
             // Создаем окно и добавляем таблицу в него
             JFrame frame = new JFrame("Таблица информации о странах");
