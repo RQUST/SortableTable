@@ -5,27 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1252a3b5-dad3-4cb2-9dcd-3b3b3ecd25e2" name="Changes" comment="Init commit">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jide_action_3_7_5s.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jide_charts_3_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jide_common_3_7_5s15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jide_components_3_7_5s5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jide_dashboard_3_7_5s20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jide_data_3_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jide_dialogs_3_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jide_dock_3_7_5s4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jide_editor_3_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jide_gantt_3_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jide_grids_3_7_5s30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jide_jdaf_2_4_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jide_pivot_3_7_5s4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jide_plaf_3_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jide_properties_3_7_5s1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jide_rss_3_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jide_shortcut_3_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jide_treemap_3_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MySortableTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SortableTable.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SortableTable.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InfoTableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InfoTableModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MySortableTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MySortableTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -53,21 +41,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.SortableTable.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Java/IRule/4_SortableTable/jidesoft/jide-treemap/3.7.5/jide-treemap-3.7.5.jar",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.tabs"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.SortableTable.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java/IRule/SortableTable&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.intellij.sdk.settings.AppSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="javax.swing.table" />

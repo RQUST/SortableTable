@@ -55,14 +55,14 @@ public class InfoTableModel extends AbstractTableModel {
         if (columnIndex == 1) {
             return ImageIcon.class; // Используем ImageIcon для колонки с флагом
         } else if (columnIndex == 4) {
-            return Boolean.class; // Используем Boolean для булевской колонки "За/против"
+            return Boolean.class; // Используем Boolean дляколонки За/Против
         }
         return super.getColumnClass(columnIndex);
     }
 
     @Override
     public boolean isCellEditable(int rowIndex, int columnIndex) {
-        // Разрешаем редактирование только для колонки "За/против"
+        // Разрешаем редактирование только для колонки За/Проти
         return columnIndex == 4;
     }
 
