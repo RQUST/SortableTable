@@ -18,11 +18,11 @@ public class Main {
 
             // Добавляем страны Евросоюза
             model.addInfo(new Info("Германия", euFlag, "Европа", 83000000, true));
-            model.addInfo(new Info("Франция", euFlag, "Европа", 67000000, true));
+            model.addInfo(new Info("Франция", euFlag, "Европа", 67000000, false));
             model.addInfo(new Info("Италия", euFlag, "Европа", 60000000, true));
-            model.addInfo(new Info("Испания", euFlag, "Европа", 47000000, true));
+            model.addInfo(new Info("Испания", euFlag, "Европа", 47000000, false));
             model.addInfo(new Info("Польша", euFlag, "Европа", 38000000, true));
-            model.addInfo(new Info("Нидерланды", euFlag, "Европа", 17000000, true));
+            model.addInfo(new Info("Нидерланды", euFlag, "Европа", 17000000, false));
 
             // Создаем SortableTable с нашей моделью
             MySortableTable table = new MySortableTable(model);
