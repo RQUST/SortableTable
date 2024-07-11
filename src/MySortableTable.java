@@ -1,8 +1,7 @@
 import com.jidesoft.grid.SortableTable;
+import com.jidesoft.grid.AutoFilterTableHeader;
 import javax.swing.*;
 import javax.swing.table.DefaultTableCellRenderer;
-import javax.swing.table.TableCellRenderer;
-import javax.swing.table.TableCellEditor;
 import java.awt.*;
 
 public class MySortableTable extends SortableTable {
@@ -26,5 +25,11 @@ public class MySortableTable extends SortableTable {
         });
 
         getColumnModel().getColumn(4).setCellEditor(new DefaultCellEditor(new JCheckBox()));
+
+        // Добавляем фильтрацию по всем колонкам
+        AutoFilterTableHeader header = new AutoFilterTableHeader(this);
+        header.setAutoFilterEnabled(true);
+        header.setUseNativeHeaderRenderer(true);
+        setTableHeader(header);
     }
 }
